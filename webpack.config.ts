@@ -8,6 +8,9 @@ module.exports = {
     mode: 'development',
     devServer: {
         static: './dist',
+        open: true,
+        historyApiFallback: true,
+        hot: true,
     },
     module: {
         rules: [
